@@ -3,11 +3,7 @@ from pyVmomi import vim
 from pyVim.task import WaitForTask
 from time import localtime, strftime
 import ssl
-import atexit
-import getpass
 import re
-import sys
-import time
 import argparse
 
 
